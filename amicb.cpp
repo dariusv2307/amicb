@@ -5,7 +5,7 @@ int main()
     int a, b;
     cin >> a >> b;
     if (a < b)
-        cout << a;
+        cout <<"Nr mai mic este: "<< a;
     else
-        cout << b;
+        cout << "Nr mai mic este: " << b;
 }

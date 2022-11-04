@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
-    int a, b;
+    int a, b, min;
     cin >> a >> b;
     if (a < b)
-        cout <<"Nr mai mic este: "<< a;
+        min=a;
     else
-        cout << "Nr mai mic este: " << b;
+        min=b;
+    cout <<"Minimul este: " min;
 }

@@ -8,5 +8,5 @@ int main()
         min=a;
     else
         min=b;
-    cout << min;
+    cout <<"Minimul este: " min;
 }
